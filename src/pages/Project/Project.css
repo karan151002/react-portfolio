@@ -1,0 +1,11 @@
+.home {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 768px) {
+  .home {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,30 @@
+.nav__nav {
+  width: 100%;
+  padding: 4% 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.brand__logo p {
+  font-size: 22px;
+}
+.navigators {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .nav__nav {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .brand__logo p {
+    margin-bottom: 20px;
+  }
+  .navigators {
+    justify-content: center;
+  }
+}
